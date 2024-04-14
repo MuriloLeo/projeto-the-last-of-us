@@ -1,0 +1,61 @@
+@media(max-width: 1280px){
+
+    .cabecalho .menu{
+        background-color: purple;
+        margin: left;
+        justify-content: end;
+        align-items: left;
+        
+    }
+   
+    .cabecalho .logo{
+    background-color: orange;
+    width: 150%;
+    height: 100%;
+    }
+
+    .home .informacoes{
+        background-color: red;
+        position: absolute;
+        top: 0%;
+        height: 50%;
+        max-width: 500px;
+    }
+
+    .home .informacoes h1 {
+        background-color: black;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .home .informacoes p{
+        background-color: aqua;
+        font-family: 'Anton',sans-serif;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    
+    @media(max-width: 425px){
+        .home .fundo .img{
+            height: 50px;
+        }
+    
+        .home .informacoes h1{
+            font-size: 20px;
+        }
+        .home .informacoes p{
+            font-size: 16px;
+        }
+    
+        .home .container-foto img{
+            max-width: 320px;
+        }
+    
+        .projeto{
+            padding: 30px;
+        }
+    }
+
+}
