@@ -2,6 +2,7 @@
 
 html{
 	scroll-behavior: smooth;
+	transition: 0.3s;
 }
 
 .cabecalho {
@@ -14,8 +15,9 @@ html{
 
 .cabecalho .logo {
 	display: flex;
-	gap: 15px;
-    width: 15%;
+	margin-left: 80px;
+    max-width: 200px;
+	min-width: 150px;
 }
 
 .cabecalho .menu {
@@ -44,10 +46,9 @@ html{
 }
 
 .home .fundo img{
+	margin-top: 10px;
 	height: 800px;
-	background-size: cover;
-	background-attachment: fixed;
-	box-shadow: 2px 2px 10px 10px rgba(63, 63, 63, 0.527);
+	box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.605);
 }
 
 .home .caixa-informacoes{

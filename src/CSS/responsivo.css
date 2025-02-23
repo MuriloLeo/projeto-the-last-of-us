@@ -1,16 +1,60 @@
 @media (max-width: 768px) { 
+
+    .cabecalho .logo{
+        min-width: 110px;
+        margin-left: 10px;
+    }
+
     
     .home .caixa-informacoes::before, .home .caixa-informacoes::after{
         width: 50px;
         height: 50px;
     }
 
+    .home .caixa-informacoes::before{
+        top: -50px;
+        left: -100px;
+        border-top: 5px solid white;
+        border-left: 5px solid white;
+    }
+
+    .home .caixa-informacoes::after{
+        bottom: -100px;
+        right: -100px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+
     .home .caixa-informacoes h1 {
         font-size: 40px;
+        margin-top: 35px;
+        margin-left: -120px;
     }
 
     .home .caixa-informacoes p {
         font-size: 16px; 
-        padding-top: 10px;  
-}
+        padding-top: 10px;
+        margin-left: -120px;  
+    }
+
+    .compre-ja .cartao{
+        width: 60%;
+    }
+
+    .btn-comprar,
+    .btn-plataforma{
+        width: 296px;
+        font-size: 20px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma:hover{
+        background-color: rgba(179, 177, 177, 0.205);
+        transition: 0.3s;
+    }
+
+    .compre-ja .informacoes h3{
+        font-size: 30px;
+    }
+
 }
