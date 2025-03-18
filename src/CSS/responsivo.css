@@ -58,3 +58,87 @@
     }
 
 }
+
+@media (max-width: 400px) { 
+
+    .cabecalho .logo{
+        min-width: 110px;
+        margin-left: 10px;
+    }
+
+    .cabecalho .menu {
+        display: flex;
+        margin-left: -60px;
+    }
+    
+    .cabecalho .menu li a {
+        padding: 10px;
+        color: #e8e8e8;
+        font-family: 'Anton', sans-serif;
+        font-weight: normal;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .cabecalho .menu li a:hover {
+        border-bottom: 2px solid #fff;
+    }
+
+    .home .fundo img{
+        margin-top: 10px;
+        height: 400px;
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.605);
+    }
+
+    
+    .home .caixa-informacoes::before, .home .caixa-informacoes::after{
+        width: 35px;
+        height: 35px;
+    }
+
+    .home .caixa-informacoes::before{
+        top: -40px;
+        left: -80px;
+        border-top: 5px solid white;
+        border-left: 5px solid white;
+    }
+
+    .home .caixa-informacoes::after{
+        bottom: -40px;
+        right: -80px;
+        border-bottom: 5px solid white;
+        border-right: 5px solid white;
+    }
+
+    .home .caixa-informacoes h1 {
+        font-size: 20px;
+        margin-left: -170px;
+    }
+
+    .home .caixa-informacoes p {
+        font-size: 10px; 
+        padding-top: 10px;
+        margin-left: -163px;
+
+    }
+
+    .compre-ja .cartao{
+        width: 60%;
+    }
+
+    .btn-comprar,
+    .btn-plataforma{
+        width: 296px;
+        font-size: 20px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma:hover{
+        background-color: rgba(179, 177, 177, 0.205);
+        transition: 0.3s;
+    }
+
+    .compre-ja .informacoes h3{
+        font-size: 30px;
+    }
+}
