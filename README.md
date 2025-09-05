@@ -6,12 +6,6 @@
 
 Este projeto entrega uma aplicação web front-end simples com inspiração no universo “The Last of Us”. O foco está em recriar aspectos visuais ou comportamentais usando tecnologias web como HTML, CSS e JavaScript.
 
-A estrutura principal do repositório inclui:
-
-- Uma pasta `src/` (com arquivos de estilo, scripts e imagens)
-- Um arquivo `index.html` como ponto de entrada
-- Implementações com **CSS** (~60 %) e **HTML** (~37 %), com uma pitada de **JavaScript** (~2 %)
-
 ##  Tecnologias Utilizadas
 
 - **HTML** — estrutura da página
@@ -21,10 +15,9 @@ A estrutura principal do repositório inclui:
 
 ##  Estrutura do Projeto
 
-projeto-the-last-of-us/
-├── src/ # Arquivos de estilo, scripts e outros recursos estáticos
-├── index.html # Página principal da aplicação
-└── README.md # Este arquivo
+- Uma pasta `src/` (com arquivos de estilo, scripts e imagens)
+- Um arquivo `index.html` como ponto de entrada
+- Implementações com **CSS** (~60 %) e **HTML** (~37 %), com uma pitada de **JavaScript** (~2 %)
 
 bash
 Copiar código
