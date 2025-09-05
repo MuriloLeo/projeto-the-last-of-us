@@ -19,9 +19,6 @@ Este projeto entrega uma aplicação web front-end simples com inspiração no u
 - Um arquivo `index.html` como ponto de entrada
 - Implementações com **CSS** (~60 %) e **HTML** (~37 %), com uma pitada de **JavaScript** (~2 %)
 
-bash
-Copiar código
-
 ##  Como Executar
 
 1. Clone o repositório:
@@ -32,11 +29,12 @@ Abra o arquivo index.html no seu navegador:
 
 No terminal:
 
-bash
-Copiar código
+ ```bash
 xdg-open index.html  # Linux
 open index.html      # macOS
 start index.html     # Windows
+```
+
 Ou simplesmente dê um duplo clique no arquivo.
 
 Navegue e explore a interface.
