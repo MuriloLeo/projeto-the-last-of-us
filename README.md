@@ -8,9 +8,9 @@ Este projeto entrega uma aplicação web front-end simples com inspiração no u
 
 A estrutura principal do repositório inclui:
 
-- Uma pasta `src/` (provavelmente com arquivos de estilo, scripts e imagens)
+- Uma pasta `src/` (com arquivos de estilo, scripts e imagens)
 - Um arquivo `index.html` como ponto de entrada
-- Implementações com **CSS** (~60 %) e **HTML** (~37 %), com uma pitada de **JavaScript** (~2 %) :contentReference[oaicite:0]{index=0}
+- Implementações com **CSS** (~60 %) e **HTML** (~37 %), com uma pitada de **JavaScript** (~2 %)
 
 ##  Tecnologias Utilizadas
 
