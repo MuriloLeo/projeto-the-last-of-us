@@ -48,11 +48,9 @@ Ou simplesmente dê um duplo clique no arquivo.
 
 Navegue e explore a interface.
 
-Funcionalidades Possíveis
-Layout estilizado com base no estilo visual de “The Last of Us”
+## Funcionalidades Possíveis
 
-Elementos interativos (como transições, animações ou efeitos)
-
-Scripts simples para manipular DOM ou interações básicas
-
-Organização front-end clara e modular em src/
+- Layout estilizado com base no estilo visual de “The Last of Us”
+- Elementos interativos (como transições, animações ou efeitos)
+- Scripts simples para manipular DOM ou interações básicas
+- Organização front-end clara e modular em src/
